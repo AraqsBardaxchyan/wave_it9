@@ -343,3 +343,56 @@ input::placeholder{
 .box2__img12{
     transform: translate(0,-2700%);
 }
+
+.box3__img2{
+    transform: translate(696%,-427%);
+}
+
+.box1:hover,.box2:hover,.box3:hover{
+    background: #004464;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.box1__img__text h3{
+  transform: translate(0,-427%);
+}
+
+.box1__img__text h3,.box2__img__text h3,.box3__img__text h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+}
+
+.box1__img__text p{
+    transform: translate(9%,-51%);
+}
+
+.box1__img__text p,.box2__img__text p,.box3__img__text p{
+    width: 336px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;  
+    color: #000000;
+    text-align: center;
+}
+
+.box2__img__text h3{
+  transform: translate(0,-301%);
+}
+
+.box2__img__text p{
+    transform: translate(7%,-29%);
+}
+
+.box3__img__text h3{
+  transform: translate(0,-66%);
+}
+
+.box3__img__text p{
+    transform: translate(7%,-11%);
+}
