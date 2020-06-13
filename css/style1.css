@@ -1,0 +1,21 @@
+header,.section,.header__content,.navabar,.section2,.section3{
+	width: 100%;
+}
+
+.header__content,.social__part,.navabar__content,.nav__ul,.section__inner,
+.section2__inner,.section3__content
+{
+	display: flex;
+}
+
+
+.header__content,.navabar,.section__inner,.section3__inner{
+	margin: 0 auto;
+    padding: 20px 72px;
+}
+
+.social__part1,
+.social__part2,.header__tel a,.nav__link,.btn a{
+	text-decoration: none;
+}
+ 

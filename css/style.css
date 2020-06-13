@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Conv_MontserratAlternates-Italic';
+    src: url('../fonts/MontserratAlternates-Italic.eot');
+    src: local('☺'), url('../fonts/MontserratAlternates-Italic.woff') format('woff'), url('../fonts/MontserratAlternates-Italic.ttf') format('truetype'), url('../fonts/MontserratAlternates-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header part*/
+
+header,.section2{
+    background:#004464;
+}
+
+
+.header__tel a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.social__part1{
+    border-radius: 50%;
+    border:1px solid #fff;
+    width: 28px;
+    height: 28px;
+}
+
+
+.social__part{
+    margin-left: 638px;
+}
+
+
+.social__img2{
+    transform: translate(-157%,-34%);
+}
+
+.social__img3{
+   margin-left: 5px;
+}
+
+.social__img1{
+    transform: translate(21%,34%);
+}
+
+.social__img3{
+    transform: translate(13%,4%);
+}
+
+/*navbar__part*/
+
+.nav__ul{
+    list-style: none;
+}
+
+.nav__ul{
+  margin-left: 363px;
+}
+
+.nav__link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E1E1E;
+    margin: 0 0 0 24px;
+}
+
+.nav__link:hover{
+    color: #004464;
+}
+
+
+/*section part*/
+.section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image:  url("../img/24d74520714037 1.png");
+    min-height: 743px;
+}
+
+.section__content{
+    height: 743px;
+    left: 0px;
+    top: 169px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.section__text1{
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 60px;
+}
+
+h1{
+    width: 600px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+.section__text{
+    margin-top:177px;
+}
+
+.btn{
+    position: absolute; 
+    width: 345px;
+    height: 48px;
+    margin-top:81px;  
+}
+
+
+.section__input{
+    width: 480px;
+    height: 486px;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 113px;
+    margin-top:156px;
+}
+
+.username,.telefon{
+    width: 360px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+
+.telefon{
+    margin-top:65px;
+}
+
+input::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.section__input form{
+    padding: 94px 58px 0;
+     justify-content: center;
+}
+
+.btn2{
+    width: 350px;
+    height: 60px;
+    margin-top:62px;
+
+}
+
+.btn2,.btn{
+    background: #5EAED8;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer; 
+    text-align: center;
+}
+
+/*section2*/
+
+.section2__text1 span{
+   font-family: 'Conv_MontserratAlternates-Italic';
+   color: #079AE6;
+   font-size: 64px;
+}
+
+.section2__inner{
+    margin: 0 auto;
+    padding: 55px 46px;
+}
+
+.section2__text1 h3{
+    width: 376px;
+    font-family: 'Conv_MontserratAlternates-Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 56px;
+    color: white;
+    margin-left: 48px;
+}
+
+.border{
+    width: 105px;
+}
+
+.border1{
+    transform: translate(736%,-42%);
+}
+
+.border2{
+    width: 300px;
+    margin-left: 10px; 
+}
+
+.border,.border2{
+    border: 2px solid #FFFFFF;
+    height: 0px;
+    margin-top: 32px;
+}
+
+.border1,.border3{
+    width: 13px;
+    height: 13px;
+    background: #FFFFFF;
+    filter: blur(4px);
+}
+
+.border3{
+    transform: translate(2249%,-42%);
+}
+
+.box1,
+.box2,
+.box3{
+    width: 389px;
+    height: 414px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 0px 5px #004464;
+    border-radius: 30px;
+}
+
+.section3__content{
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-between;
+}
