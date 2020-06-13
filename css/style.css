@@ -259,9 +259,87 @@ input::placeholder{
     border-radius: 30px;
 }
 
+/*section box1*/
+
 .section3__content{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-between;
+}
+
+.box1__img__part{
+    margin:33px 161px;
+}
+
+.box1__img2,
+.box1__img3,
+.box1__img4{
+    transform: translate(249%,-2091%);
+}
+
+.box1__img5{
+    transform: translate(9%,-164%);
+}
+
+.box1__img6{
+    transform: translate(22%,-197%);
+}
+
+.box1__img7{
+    transform: translate(88%,-530%);
+}
+
+.box1__img8{
+    transform: translate(-338%,-1628%);
+}
+.box1__img9{
+    transform: translate(103%,-3796%);
+}
+.box1__img10{
+    transform: translate(209%,-3796%);
+}
+
+.box2__img1{
+
+}
+
+.box2__img2{
+    transform: translate(-126%,-175%);
+}
+
+.box2__img4{
+    transform: translate(-340%,-302%);
+}
+
+.box2__img5{
+    transform: translate(0,-90%);
+}
+
+.box2__img6{
+    transform: translate(0,-55%);
+}
+
+.box2__img7{
+    transform: translate(0,-456%);
+}
+
+.box2__img8{
+    transform: translate(-30%,-316%);
+}
+
+.box2__img9{
+    transform: translate(-44%,-230%);
+}
+
+.box2__img10{
+    transform: translate(-60%,-160%);
+}
+
+.box2__img11{
+    transform: translate(494%,-213%);
+}
+
+.box2__img12{
+    transform: translate(0,-2700%);
 }
