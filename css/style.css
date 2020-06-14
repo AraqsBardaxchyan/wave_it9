@@ -733,3 +733,41 @@ input::placeholder{
     height: 400px;
     background: #004464;
 }
+
+/*section9*/
+
+.section9__text h3{
+    font-family: 'Conv_MontserratAlternates-Light';
+    font-size: 43px;
+    line-height: 59px;
+    width: 424px;
+}
+
+.section9__text p{
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 10px;
+}
+
+.section9_border2{
+    transform: translate(330%,-48%);
+}
+
+.section9__text h3,p{
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.section9__text{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.section9_img{
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-between;
+    display: flex;
+}

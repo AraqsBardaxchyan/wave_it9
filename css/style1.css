@@ -6,7 +6,8 @@ header,.section,.header__content,.navabar,.section2,.section3,.section4,
 .header__content,.social__part,.navabar__content,.nav__ul,.section__inner,
 .section2__inner,.section3__content,.section4__inner,.section5__inner,
 .section5__box__part,.section6__part,.section7__inner,.section7__box-inner,
-.section8__inner,.section8__navabr,.section8_ul,.section8__img__inner,.modal-container,.section8_modal__img__inner
+.section8__inner,.section8__navabr,.section8_ul,.section8__img__inner,
+.modal-container,.section8_modal__img__inner,.section9__inner
 {
 	display: flex;
 }
@@ -15,7 +16,7 @@ header,.section,.header__content,.navabar,.section2,.section3,.section4,
 .header__content,.navabar,.section__inner,.section3__inner,
 .section4__inner,.section5,.section5__box__part,
 .section5__inner,.section6__part,.section7__inner,.section7__box__part,
-.section8,.section9__inner
+.section8,.section9__inner,.section9__img_content
 {
 	margin: 0 auto;
     padding: 20px 72px;
