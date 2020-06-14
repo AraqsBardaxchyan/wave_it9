@@ -29,21 +29,19 @@
 })
 
 
-const button = document.getElementById('hamburger-menu'),
-dropdown = document.querySelector('.dropdown')
-  span = button.getElementsByTagName('span')[0];
+const openModalButton = document.querySelector('#open'),
+        modal = document.querySelector('#modal'),
+        modalContainer = document.querySelector('#modalContainer');
+    let toogle = false;
+    document.addEventListener('click', function (event) {
+        if (event.target === openModalButton) {
+            modal.classList.add('d-flex');
+            modal.classList.remove('d-none');
+            toogle = true;
+        } else if (toogle && event.target !== modalContainer && event.target.parentNode !== modalContainer) {
+            modal.classList.add('d-none');
+            modal.classList.remove('d-flex');
+            toogle = false;
+        }
 
-button.addEventListener('click',function() {
-  span.classList.toggle('hamburger-menu-button-close');
-  dropdown.classList.toggle('in')
-})
-
-$('#hamburger-menu').on('click', toggleOnClass);
-
-function toggleOnClass(event) {
-  const toggleElementId = '#' + $(this).data('toggle'),
-  element = $(toggleElementId);
-
-  element.toggleClass('on');
-
-}
+    })
