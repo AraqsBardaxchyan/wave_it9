@@ -672,7 +672,7 @@ input::placeholder{
 }
 
 .modal {
-    top: 40px;
+    top: 0;
     position: fixed;
     width: 1203px;
     height: 700px;
@@ -729,31 +729,32 @@ input::placeholder{
     padding: 0 0 20px;
 }
 
-.section9{
-    height: 400px;
-    background: #004464;
-}
 
 /*section9*/
 
-.section9__text h3{
+.section9{
+    background: #004464;
+}
+
+.section9__text_h3{
     font-family: 'Conv_MontserratAlternates-Light';
     font-size: 43px;
     line-height: 59px;
     width: 424px;
 }
 
-.section9__text p{
+.section9__text_p{
     font-size: 18px;
     line-height: 29px;
     margin-top: 10px;
+    animation-duration:3s;
 }
 
 .section9_border2{
     transform: translate(330%,-48%);
 }
 
-.section9__text h3,p{
+.section9__text_h3,.section9__text_p{
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
@@ -764,10 +765,47 @@ input::placeholder{
     margin-top: 10px;
 }
 
-.section9_img{
+.section9__img__inner{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-between;
-    display: flex;
+    padding: 64px 0 0;
+}
+
+.section9_img1 h3{
+    width: 178px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.section9_img1 p{
+    width: 241px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top:55px;
+
+}
+
+.section9__img{
+    margin-left: 53px;
+}
+
+
+.section9_img2{
+    transform: translate(0,-67%);
+
+}
+
+.section10__img1{
+
 }
