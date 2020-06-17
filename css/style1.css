@@ -1,7 +1,7 @@
 header,.section,.header__content,.navabar,.section2,.section3,.section4,
 .section6,.section5,.section7,.section8,
 .section9,.section10,.section11,.section13,.section14,
-.section15__content,.carta
+.section15__content,.carta,.footer
 {
 	width: 100%;
 }
@@ -14,7 +14,8 @@ header,.section,.header__content,.navabar,.section2,.section3,.section4,
 .section9__img__inner,.section9__border,.section10__inner,
 .section11__conetnt,.section12__content,.section13__content,
 .Section13__part__content,.section13__part__inner,.section14__inner,
-.section14__box1__img2,.section15,.section15__content__inner
+.section14__box1__img2,.section15,.section15__content__inner,
+.footer__content,.footer__logo_img,.footer__ul,.footer__tel,.footer__text
 {
 	display: flex;
 }
@@ -26,7 +27,7 @@ header,.section,.header__content,.navabar,.section2,.section3,.section4,
 .section8,.section9__inner,
 .section9__img_content,.section10__inner,
 .section11__conetnt,.section12__content,.section13__inner,
-.section14__inner,.section15,.section15__content__inner
+.section14__inner,.section15,.section15__content__inner,.footer__inner
 {
 	margin: 0 auto;
     padding: 20px 72px;
@@ -34,7 +35,7 @@ header,.section,.header__content,.navabar,.section2,.section3,.section4,
 
 .social__part1,
 .social__part2,.header__tel a,.nav__link,.btn a,
-.section14_box1_text_footer a,.btn2_a,.mat_tel a
+.section14_box1_text_footer a,.btn2_a,.mat_tel a,.footer__a,.footer_adres,.footer_tel
 {
 	text-decoration: none;
 }
