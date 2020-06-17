@@ -1,30 +1,16 @@
 
  $(document).ready(function(){
-  $('.sl').slick({
-   arrows:true,
-   autoplaySpeed: 1200,
-   slickPlay:true,
-   autoplay:true,
-   dots:false,
-   dotsClass:'slick-dots',
-   nextArrow:'<button type="button" class="slick-next">></button>',
-   prevArrow:'<button type="button" class="slick-prev"><</button>',
-  });
-})
-
-
- $(document).ready(function(){
   $('.sl2').slick({
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
-   arrows:true,
+   arrows:false,
    autoplaySpeed: 900,
-   slickPlay:true,
-   autoplay:true,
+   slickPlay:false,
+   autoplay:false,
    dots:false,
    dotsClass:'slick-dots',
-   nextArrow:'<button type="button" class="slick-next">></button>',
-   prevArrow:'<button type="button" class="slick-prev"><</button>',
+   nextArrow:false,
+   prevArrow:false,
   });
 })
 
@@ -43,5 +29,6 @@ const openModalButton = document.querySelector('#open'),
             modal.classList.remove('d-flex');
             toogle = false;
         }
-
     })
+
+    
